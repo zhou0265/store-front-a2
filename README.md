@@ -1,6 +1,6 @@
 # store-front
 
-This is a Vue.js app that simulates a store front. It is meant to be used in conjunction with the [product-service](../product-service/) and [order-service](../order-service). The app is extremely simple in that it only has a cart and a order submission button. When the order submission button is clicked, the cart is emptied and the order is sent to the order service. Currently there is no order checkout pages to collect any customer information.  
+This is a Vue.js app that simulates a store front. It is meant to be used in conjunction with the product-service and order-service. The app is extremely simple in that it only has a cart and a order submission button. When the order submission button is clicked, the cart is emptied and the order is sent to the order service. Currently there is no order checkout pages to collect any customer information.  
 
 ## Running the app locally
 
@@ -13,7 +13,7 @@ This is a Vue.js app that simulates a store front. It is meant to be used in con
 
 ### Running the app
 
-The app relies on the [product-service](../product-service) and the [order-service](../order-service) and the rabbitmq instance running. A docker-compose file is provided to make this easy.
+The app relies on the product-service and the order-service and the rabbitmq instance running. A docker-compose file is provided to make this easy.
 
 To run the necessary services, clone the repo, open a terminal, and navigate to the `store-front` directory. Then run the following command:
 
