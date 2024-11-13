@@ -108,6 +108,15 @@ export default {
 </script>
 
 <style>
+body {
+  background-image: url('@/assets/algonquin.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Keeps the background in place when scrolling */
+  margin: 0;
+  padding: 0;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -122,7 +131,7 @@ footer {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #333;
+  background-color: #0a5620;
   color: #fff;
   padding: 1rem;
   margin: 0;
@@ -174,6 +183,7 @@ button {
   padding: 1rem;
   border: 1px solid #ccc;
   border-radius: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .product-card img {
@@ -227,6 +237,7 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .shopping-cart h2 {
